@@ -2,7 +2,7 @@ name: "Marcus CC"
 navbar:
   title: "Marcus R Coding Club"
   left:
-    - text: "Intro lesson"
+    - text: "Session 1"
       href: index.html
 
 output_dir: docs

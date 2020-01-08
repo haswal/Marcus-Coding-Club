@@ -1,7 +1,8 @@
 ---
-title: "Intro lesson"
+title: "Intro session"
 ---
 
+<br>
 
 ##Instructions for how to install R and RStudio
 Before we can get started we need to install **two** different software programs, R and RStudio.   
