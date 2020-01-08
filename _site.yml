@@ -1,9 +1,12 @@
 name: "Marcus CC"
 navbar:
-  title: "Coding Club"
+  title: "Marcus R Coding Club"
   left:
-    - text: "Intro"
+    - text: "Intro lesson"
       href: index.html
-    - text: "About"
-      href: about.html
+
 output_dir: docs
+output: 
+  html_document:
+    css: style.css
+  
