@@ -1,8 +1,5 @@
 ---
 title: "Marcus R Coding Club"
-output: 
-  html_document:
-    css: style.css
 ---
 
 
