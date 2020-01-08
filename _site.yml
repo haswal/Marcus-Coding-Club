@@ -1,5 +1,9 @@
-output: 
-  html_document:
-    css: style.css
-name: Marcus_CC
+name: "Marcus CC"
+navbar:
+  title: "Coding Club"
+  left:
+    - text: "Intro"
+      href: index.html
+    - text: "About"
+      href: about.html
 output_dir: docs
