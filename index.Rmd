@@ -4,7 +4,8 @@ title: "Intro session"
 
 <br>
 
-##Instructions for how to install R and RStudio
+## Instructions for how to install R and RStudio
+
 Before we can get started we need to install **two** different software programs, R and RStudio.   
 
 Start by installing R:
@@ -24,7 +25,7 @@ It is possible to use a tablet for the things we are going to cover in the Codin
 
 <br>
 
-##Agenda 
+## Agenda 
 
 Here are some topics we will cover the first Coding Club session:
 

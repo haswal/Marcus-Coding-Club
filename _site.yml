@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Session 1"
       href: index.html
+    - text: "Session 2"
+      href: Session_2.html
 
 output_dir: docs
 output: 
