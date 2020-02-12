@@ -6,6 +6,8 @@ navbar:
       href: index.html
     - text: "Session 2"
       href: Session_2.html
+    - text: "Session 3"
+      href: Session_3.html
 
 output_dir: docs
 output: 

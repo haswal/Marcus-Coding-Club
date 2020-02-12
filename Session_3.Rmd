@@ -1,0 +1,16 @@
+---
+title: "Session 3"
+---
+
+
+## Do First
+Recreate the R code to make this plot:
+```{r plot, echo=FALSE}
+library(ggplot2)
+ggplot(data=mpg)+
+  geom_point(aes(displ, y=cty, fill=class), shape=24)+
+  facet_grid(~drv)+
+  theme_bw()
+```
+
+
