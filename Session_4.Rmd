@@ -1,0 +1,24 @@
+---
+title: "Session 4"
+---
+
+
+## Do First
+Recreate the R code to make this plot:
+```{r plot, echo=FALSE, message=FALSE}
+library(ggplot2)
+ggplot(data = mpg, aes(x=displ, y=hwy))+
+  geom_smooth(color="grey10", size = 17, se=F, method="loess")+
+  geom_smooth(color="grey20", size = 15, se=F, method="loess")+
+  geom_smooth(color="grey30", size = 13, se=F, method="loess")+
+  geom_smooth(color="grey40", size = 11, se=F, method="loess")+
+  geom_smooth(color="grey50", size = 9, se=F, method="loess")+
+  geom_smooth(color="grey60", size = 7, se=F, method="loess")+
+  geom_smooth(color="grey70", size = 5, se=F, method="loess")+
+  geom_smooth(color="grey80", size = 3, se=F, method="loess")+
+  geom_smooth(color="grey90", size = 1, se=F, method="loess")+
+  theme_classic()+
+  scale_y_continuous(expand = c(0.1,0.11))
+```
+
+
