@@ -1,0 +1,17 @@
+---
+title: "Session 6"
+---
+
+
+## Do First
+Recreate the R code to make this plot:
+```{r plot, echo=FALSE, message=FALSE}
+library(tidyverse)
+
+d2 <- filter(diamonds, !cut %in% c("Fair", "Good"), carat<3)
+ggplot(data = d2, aes(x=carat, y=stat(count)))+
+  geom_density(aes(fill=cut), position = "stack")+
+  theme_minimal()
+  
+```
+
